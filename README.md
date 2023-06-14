@@ -37,14 +37,19 @@ Pertama sensor DHT pada Wokwi akan mempublish nilai suhu dan kelembaban ke setia
 # TAMPILAN PLATFORM
 ### WEBSITE
 
+Bedroom
 ![web1](https://github.com/saelsam/UAS-IOT/assets/73805179/d43dcf2a-3575-4c9a-85c0-a8a7333c3b8a)
 
+Bathroom
 ![web2](https://github.com/saelsam/UAS-IOT/assets/73805179/ac5fcc9d-f0c6-4332-b3e4-f9dae1e6eff1)
 
+Living Room
 ![web3](https://github.com/saelsam/UAS-IOT/assets/73805179/d396050e-3bd3-4c7e-a7e6-a25772b7293c)
 
+Kitchen
 ![web4](https://github.com/saelsam/UAS-IOT/assets/73805179/d9b70bb5-0edd-46dd-acbb-c15e7bcebb0e)
 
+Fitur Searching
 ![web5](https://github.com/saelsam/UAS-IOT/assets/73805179/899c9cb5-b004-4538-8408-82f4a3335dc8)
 
 
