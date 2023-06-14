@@ -13,9 +13,7 @@
 - Sael Samuel Rude'            2009106034
 
 # DESKRIPSI PROJEK
-projek ini merupakan aplikasi smarthome yang berbasis internet of things dengan menggunakan metode mqtt dan platform iot yang digunakan 
-adalah kodular. projek ini menampilkan kelembaban, suhu, dan menongontrol mati nyala lampu LED yang terdiri dari 4 ruangan yaitu kitchen,
-bathroom, bedroom, dan living room.
+Projek ini merupakan aplikasi smarthone berbasis internet of things, yang menggunakan metode mqtt dan platform iot kodular. Projek ini dapat menampilkan nilai kelembaban, suhu, dan menongontrol mati nyalanya lampu LED disetiap ruangan, yaitu kitchen, bathroom, bedroom, dan living room.
 
 # BROKER YANG DIGUNAKAN
 - https://mrnyahya.cloud.shiftr.io/
@@ -34,7 +32,7 @@ bathroom, bedroom, dan living room.
 - (#) = topic
 
 # ALUR PROJEK
-sensor DHT pada Wokwi mempublish angka suhu dan kelembaban setiap ruangan ke broker, kodular dan website database akan menerima data untuk ditampilkan. kontroling LED akan mengambil data yang dipublish kodular dikirimkan ke broker lalu LED pada wokwi akan menyala dan mati. data yang ditampilkan di website dan kodular adalah data terakhir yang dikirimkan oleh broker.
+Pertama sensor DHT pada Wokwi akan mempublish nilai suhu dan kelembaban ke setiap ruangan menggunakan broker, broker yang digunakan pada projek ini yaitu shiftr. Data yang tersimpan di broker tersebut kemudian diteruskan ke aplikasi kodular yang merupakan aplikasi dari projek ini dan diteruskan juga ke dalam database yang akan ditampilkan ke dalam website yang udah terhubung dengan shiftr. Untuk kontroling LED juga sama, ia akan mengambil data yang dipublish oleh kodular melalui tombol switch, yang kemudian pesan tersebut diteruskan ke broker dan diteruskan ke LED pada wokwi. LED pada woksi akan menyala dan mati setiap pesan yang dikirimkan dari kodular. Setiap pesan LED yang dikirimkan (NYALA/MATI), akan tersimpan juga ke database sesuai topic masing-masing ruangan.
 
 # TAMPILAN PLATFORM
 ### WEBSITE
